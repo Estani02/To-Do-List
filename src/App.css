@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+section{
+  display: flex;
+  align-items: end;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input{
+  padding: 6px 3px;
+  border-radius: 8px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+li{
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  justify-content: space-between;
+}
